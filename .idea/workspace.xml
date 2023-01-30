@@ -8,9 +8,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91f3d4fc-4bc2-46be-8107-ee7f499f5a06" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/thread_safe/src/channel_event.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread_safe/src/pool_thread_channel.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread_safe/src/done_thread_channel.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread_safe/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/thread_safe/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread_safe/src/pool_thread_channel.rs" beforeDir="false" afterPath="$PROJECT_DIR$/thread_safe/src/pool_thread_channel.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +52,10 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="language.rust" />
   </component>
   <component name="RunManager">
     <configuration name="Run thread_safe" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
@@ -70,6 +75,38 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="corrosion" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="corrosion" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="corrosion" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="corrosion" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Cargo.Run thread_safe" />
@@ -77,7 +114,9 @@
     </recent_temporary>
   </component>
   <component name="RustProjectSettings">
+    <option name="runExternalLinterOnTheFly" value="true" />
     <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
+    <option name="version" value="2" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -87,7 +126,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675050765208</updated>
-      <workItem from="1675050768716" duration="5293000" />
+      <workItem from="1675050768716" duration="5810000" />
+      <workItem from="1675072958064" duration="529000" />
+      <workItem from="1675073521452" duration="675000" />
+      <workItem from="1675074227207" duration="135000" />
     </task>
     <servers />
   </component>
@@ -107,5 +149,9 @@
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

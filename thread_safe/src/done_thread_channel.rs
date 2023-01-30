@@ -2,20 +2,21 @@ use rayon;
 use std::sync::mpsc::channel;
 use std::thread;
 
-pub enum WorkMsg {
+enum WorkMsg {
     Work(u8),
     Exit,
 }
 
-pub enum ResultMsg {
+enum ResultMsg {
     Result(u8),
     Exit,
 }
 
-pub fn pool_channel_test() {
+pub fn done_thread_channel_test() {
     let (work_sender, work_receiver) = channel();
     let (result_sender, result_receiver) = channel();
 
+    // 引入线程池，开两个工作线程
     let pool = rayon::ThreadPoolBuilder::new()
         .num_threads(2)
         .build()
