@@ -8,10 +8,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91f3d4fc-4bc2-46be-8107-ee7f499f5a06" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/thread_safe/src/done_thread_channel.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread_safe/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/thread_safe/src/main.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread_safe/src/pool_thread_channel.rs" beforeDir="false" afterPath="$PROJECT_DIR$/thread_safe/src/pool_thread_channel.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,12 +51,29 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="language.rust" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Cargo.Run thread_safe">
+    <configuration name="Run done_thread_channel" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="run --package done_thread_channel --bin done_thread_channel" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Run thread_safe" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
       <option name="command" value="run --package thread_safe --bin thread_safe" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
@@ -110,6 +126,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Cargo.Run thread_safe" />
+        <item itemvalue="Cargo.Run done_thread_channel" />
       </list>
     </recent_temporary>
   </component>
@@ -130,6 +147,8 @@
       <workItem from="1675072958064" duration="529000" />
       <workItem from="1675073521452" duration="675000" />
       <workItem from="1675074227207" duration="135000" />
+      <workItem from="1675074390392" duration="185000" />
+      <workItem from="1675216124211" duration="1316000" />
     </task>
     <servers />
   </component>
