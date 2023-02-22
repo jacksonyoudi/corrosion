@@ -9,9 +9,6 @@
   <component name="ChangeListManager">
     <list default="true" id="91f3d4fc-4bc2-46be-8107-ee7f499f5a06" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread_safe/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/thread_safe/Cargo.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread_safe/src/done_thread_channel.rs" beforeDir="false" afterPath="$PROJECT_DIR$/thread_safe/src/done_thread_channel.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +24,13 @@
   </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/crossbeam-channel-0.5.6/src/lib.rs" root0="SKIP_INSPECTION" />
+    <setting file="file://$USER_HOME$/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/crossbeam-channel-0.5.6/src/select_macro.rs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/thread_safe/src/channel_event.rs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/thread_safe/src/done_thread_channel.rs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/thread_safe/src/main.rs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="hhuy6dyb" />
@@ -121,7 +125,8 @@
       <workItem from="1675081747256" duration="958000" />
       <workItem from="1675259956754" duration="691000" />
       <workItem from="1675261105643" duration="623000" />
-      <workItem from="1675470565667" duration="1792000" />
+      <workItem from="1675470565667" duration="2910000" />
+      <workItem from="1675522945298" duration="19000" />
     </task>
     <servers />
   </component>
