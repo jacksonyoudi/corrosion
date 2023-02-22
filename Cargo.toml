@@ -1,4 +1,5 @@
 [workspace]
 members = [
-    "thread_safe"
+    "thread_safe",
+    "ownership"
 ]
