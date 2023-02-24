@@ -1,4 +1,7 @@
+mod two;
+
 fn main() {
+    two::output();
     let s1 = gives_ownership();
 
     let s2 = String::from("hello");
