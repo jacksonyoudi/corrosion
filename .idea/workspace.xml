@@ -8,9 +8,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91f3d4fc-4bc2-46be-8107-ee7f499f5a06" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ownership/src/two.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/corrosion.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/corrosion.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ownership/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/ownership/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +72,24 @@
     "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
-  <component name="RunManager" selected="Cargo.Run ownership">
+  <component name="RunManager" selected="Cargo.Run flappy">
+    <configuration name="Run flappy" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="run --package flappy --bin flappy" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Run ownership" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
       <option name="command" value="run --package ownership --bin ownership" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
@@ -127,6 +145,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cargo.Run flappy" />
         <item itemvalue="Cargo.Run ownership" />
         <item itemvalue="Cargo.Run thread_safe" />
       </list>
@@ -154,7 +173,7 @@
       <workItem from="1675261105643" duration="623000" />
       <workItem from="1675470565667" duration="2910000" />
       <workItem from="1675522945298" duration="19000" />
-      <workItem from="1677069567465" duration="2638000" />
+      <workItem from="1677069567465" duration="4077000" />
     </task>
     <servers />
   </component>
