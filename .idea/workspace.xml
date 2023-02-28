@@ -8,9 +8,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91f3d4fc-4bc2-46be-8107-ee7f499f5a06" name="Changes" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
+||||||| a23bf10
+      <change afterPath="$PROJECT_DIR$/thread_safe/src/done_thread_channel.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread_safe/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/thread_safe/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread_safe/src/pool_thread_channel.rs" beforeDir="false" afterPath="$PROJECT_DIR$/thread_safe/src/pool_thread_channel.rs" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/corrosion.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/corrosion.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
+>>>>>>> 29d5899167b277184c9b1268b2fddd336cb3d4a2
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,11 +32,26 @@
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Rust File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" url="file:///usr/local/opt/go/libexec" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/crossbeam-channel-0.5.6/src/lib.rs" root0="SKIP_INSPECTION" />
+    <setting file="file://$USER_HOME$/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/crossbeam-channel-0.5.6/src/select_macro.rs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/thread_safe/src/channel_event.rs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/thread_safe/src/done_thread_channel.rs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/thread_safe/src/main.rs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="hhuy6dyb" />
@@ -40,6 +67,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -91,6 +119,77 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
+||||||| a23bf10
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="go.format.on.save.advertiser.fired" value="true" />
+    <property name="go.formatter.settings.were.checked" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="language.rust" />
+  </component>
+  <component name="RunManager">
+=======
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.format.on.save.advertiser.fired": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "go.import.settings.migrated": "true",
+    "go.sdk.automatically.set": "true",
+    "org.rust.cargo.project.model.PROJECT_DISCOVERY": "true",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+  }
+}]]></component>
+  <component name="RunManager" selected="Cargo.Run flappy">
+    <configuration name="Run flappy" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="run --package flappy --bin flappy" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Run ownership" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="run --package ownership --bin ownership" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+>>>>>>> 29d5899167b277184c9b1268b2fddd336cb3d4a2
     <configuration name="Run thread_safe" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
       <option name="command" value="run --package thread_safe --bin thread_safe" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
@@ -127,23 +226,16 @@
       <framework value="gotest" />
       <method v="2" />
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="corrosion" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="corrosion" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
         <item itemvalue="Cargo.Run spinlock" />
         <item itemvalue="Cargo.Run done_thread_channel" />
+||||||| a23bf10
+=======
+        <item itemvalue="Cargo.Run flappy" />
+        <item itemvalue="Cargo.Run ownership" />
+>>>>>>> 29d5899167b277184c9b1268b2fddd336cb3d4a2
         <item itemvalue="Cargo.Run thread_safe" />
       </list>
     </recent_temporary>
@@ -165,9 +257,19 @@
       <workItem from="1675072958064" duration="529000" />
       <workItem from="1675073521452" duration="675000" />
       <workItem from="1675074227207" duration="135000" />
+<<<<<<< HEAD
       <workItem from="1675074390392" duration="185000" />
       <workItem from="1675216124211" duration="1527000" />
       <workItem from="1675242126534" duration="2241000" />
+||||||| a23bf10
+=======
+      <workItem from="1675081747256" duration="958000" />
+      <workItem from="1675259956754" duration="691000" />
+      <workItem from="1675261105643" duration="623000" />
+      <workItem from="1675470565667" duration="2910000" />
+      <workItem from="1675522945298" duration="19000" />
+      <workItem from="1677069567465" duration="4077000" />
+>>>>>>> 29d5899167b277184c9b1268b2fddd336cb3d4a2
     </task>
     <servers />
   </component>
@@ -186,7 +288,7 @@
     </option>
   </component>
   <component name="VgoProject">
-    <integration-enabled>true</integration-enabled>
+    <settings-migrated>true</settings-migrated>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

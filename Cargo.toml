@@ -1,6 +1,10 @@
 [workspace]
 members = [
-    "thread_safe",
     "done_thread_channel",
-    "spinlock"
+    "spinlock",
+    "thread_safe",
+    "ownership",
+    "flappy",
+    "minigrep",
+    "minigreptest"
 ]
