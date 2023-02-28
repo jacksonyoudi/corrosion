@@ -1,5 +1,6 @@
 [workspace]
 members = [
     "thread_safe",
-    "done_thread_channel"
+    "done_thread_channel",
+    "spinlock"
 ]
