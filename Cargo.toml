@@ -6,5 +6,6 @@ members = [
     "ownership",
     "flappy",
     "minigrep",
-    "minigreptest"
+    "minigreptest",
+    "hello"
 ]
