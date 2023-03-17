@@ -12,6 +12,7 @@
       <sourceFolder url="file://$MODULE_DIR$/minigreptest/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/spinlock/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/hello/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/substrate/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />
