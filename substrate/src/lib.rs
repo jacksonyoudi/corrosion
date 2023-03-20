@@ -1,4 +1,5 @@
 pub mod sort;
+pub mod traffic_light;
 
 
 pub fn add(left: usize, right: usize) -> usize {
