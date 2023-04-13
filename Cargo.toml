@@ -8,5 +8,6 @@ members = [
     "minigrep",
     "minigreptest",
     "hello",
-    "substrate"
+    "substrate",
+    "my-redis"
 ]
