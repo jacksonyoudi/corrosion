@@ -9,5 +9,6 @@ members = [
     "minigreptest",
     "hello",
     "substrate",
-    "my-redis"
+    "my-redis",
+    "async-book"
 ]

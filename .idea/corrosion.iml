@@ -13,6 +13,8 @@
       <sourceFolder url="file://$MODULE_DIR$/spinlock/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/hello/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/substrate/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/async-book/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/my-redis/examples" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/my-redis/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
