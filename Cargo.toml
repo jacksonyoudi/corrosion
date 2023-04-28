@@ -10,5 +10,6 @@ members = [
     "hello",
     "substrate",
     "my-redis",
-    "async-book"
+    "async-book",
+    "ding"
 ]
