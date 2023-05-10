@@ -11,5 +11,6 @@ members = [
     "substrate",
     "my-redis",
     "async-book",
-    "ding"
+    "ding",
+    "patterns"
 ]

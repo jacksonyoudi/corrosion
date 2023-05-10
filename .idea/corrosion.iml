@@ -17,6 +17,7 @@
       <sourceFolder url="file://$MODULE_DIR$/my-redis/examples" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/my-redis/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ding/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/patterns/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />
