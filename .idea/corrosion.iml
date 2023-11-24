@@ -19,6 +19,7 @@
       <sourceFolder url="file://$MODULE_DIR$/ding/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/patterns/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/daily-lib/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/taskmanager/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />

@@ -13,5 +13,6 @@ members = [
     "async-book",
     "ding",
     "patterns",
-    "daily-lib"
+    "daily-lib",
+    "taskmanager",
 ]
