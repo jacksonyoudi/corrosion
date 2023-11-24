@@ -1,4 +1,5 @@
 mod lib;
+mod bin;
 
 use std::{
     fs,

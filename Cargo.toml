@@ -12,5 +12,6 @@ members = [
     "my-redis",
     "async-book",
     "ding",
-    "patterns"
+    "patterns",
+    "daily-lib"
 ]
