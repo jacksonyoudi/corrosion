@@ -33,23 +33,29 @@ impl<'a> Drop for LightGuard<'a> {
 }
 
 
-fn main() {
-    let spinlock = Arc::new(AtomicUsize::new(1));
-    let spinlock_clone = Arc::clone(&spinlock);
+#[derive(Debug)]
+struct Foo;
 
-    let th = thread::spawn(move || {
-        // lock
-        spinlock_clone.store(1, Ordering::SeqCst);
-        //  do something
-        let t = time::Duration::from_secs(3);
-        thread::sleep(t);
-        //  unlock
-        spinlock_clone.store(0, Ordering::SeqCst);
-    });
-
-    // Wait for the other thread to release the lock
-    while spinlock.load(Ordering::SeqCst) != 0 {}
-    if let Err(panic) = th.join() {
-        println!("Thread had an error: {:?}", panic);
+impl Foo {
+    fn mutate_and_share(&mut self) -> &Self {
+        &*self
     }
+    fn share(&self) {}
+}
+
+
+fn main() {
+    // let mut foo = Foo;
+    // let loan = foo.mutate_and_share();
+    // foo.share();
+    // println!("{:?}", loan);
+    println!("{:04}", 42)
+}
+
+
+fn fill_vec(mut vec: Vec<i32>) -> Vec<i32> {
+    vec.push(22);
+    vec.push(44);
+    vec.push(66);
+    vec
 }
