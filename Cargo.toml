@@ -14,5 +14,5 @@ members = [
     "ding",
     "patterns",
     "daily-lib",
-    "taskmanager",
+    "taskmanager", "tokyo",
 ]
